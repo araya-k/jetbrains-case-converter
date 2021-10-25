@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="title"><h1 class="h1">Case Converter</h1></div>
+            <textarea name="textarea" id="textarea" class="txt" cols="30" rows="20"></textarea>
+            <div class="btn-group">
+                <button onclick="makeUpperCaseText()" id="upper-case" class="btn">Upper Case</button>
+                <button onclick="makeLowerCaseText()" id="lower-case" class="btn">Lower Case</button>
+                <button onclick="makeProperCaseText()" id="proper-case" class="btn">Proper Case</button>
+                <button onclick="makeSentenceCase()" id="sentence-case" class="btn">Sentence Case</button>
+                <button onclick="download('text.txt')" id="save-text-file" class="btn">Save Text File</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
